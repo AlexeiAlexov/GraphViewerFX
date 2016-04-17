@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="89.0" prefWidth="421.0" style="-fx-background-color: #4477aa;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.BinaryOperationViewController">
+   <children>
+      <ChoiceBox fx:id="leftOperandChoiceBox" layoutX="14.0" layoutY="14.0" prefWidth="150.0" AnchorPane.leftAnchor="10.0" />
+      <ChoiceBox fx:id="rightOperandChoiceBox" layoutX="215.0" layoutY="14.0" prefWidth="150.0" AnchorPane.rightAnchor="10.0" />
+      <Label fx:id="operationLabel" alignment="CENTER" layoutX="188.0" layoutY="18.0" text="^" AnchorPane.leftAnchor="188.0" AnchorPane.rightAnchor="188.0" />
+      <Button layoutX="14.0" layoutY="49.0" mnemonicParsing="false" onAction="#handleOk" text="ОК" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" />
+      <Button layoutX="322.0" layoutY="49.0" mnemonicParsing="false" onAction="#handleCancel" text="Назад" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+   </children>
+</AnchorPane>

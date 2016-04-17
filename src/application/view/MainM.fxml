@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="400.0" style="-fx-background-color: #4477aa;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.MainController">
+   <children>
+      <ListView fx:id="matrixListView" layoutX="22.0" layoutY="14.0" onMouseClicked="#handleListViewClick" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="170.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
+      <Button fx:id="addMatrixButton" layoutX="10.0" layoutY="217.0" mnemonicParsing="false" onAction="#handleCreateMatrix" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #555555;" text="Нова матриця" AnchorPane.bottomAnchor="130.0" AnchorPane.leftAnchor="10.0" />
+      <Button fx:id="loadMatrixButton" layoutX="140.0" layoutY="217.0" mnemonicParsing="false" onAction="#handleLoadMatrix" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #555555;" text="Завантажити" AnchorPane.bottomAnchor="130.0" AnchorPane.leftAnchor="140.0" AnchorPane.rightAnchor="140.0" />
+      <Button fx:id="deleteMatrixButton" layoutX="271.0" layoutY="217.0" mnemonicParsing="false" onAction="#handleDelete" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #555555;" text="Видалити" AnchorPane.bottomAnchor="130.0" AnchorPane.rightAnchor="10.0" />
+      <Button fx:id="additionButton" layoutX="10.0" layoutY="261.0" mnemonicParsing="false" onAction="#handleAddition" prefHeight="30.0" prefWidth="120.0" text="1 Доповнення" AnchorPane.bottomAnchor="90.0" />
+      <Button fx:id="crossingButton" layoutX="140.0" layoutY="261.0" mnemonicParsing="false" onAction="#handleBinaryOperation" prefHeight="30.0" prefWidth="120.0" text="2 Перетин" AnchorPane.bottomAnchor="90.0" AnchorPane.leftAnchor="140.0" AnchorPane.rightAnchor="140.0" />
+      <Button fx:id="associationButton" layoutX="271.0" layoutY="261.0" mnemonicParsing="false" onAction="#handleBinaryOperation" prefHeight="30.0" prefWidth="120.0" text="3 Об`єднання" AnchorPane.bottomAnchor="90.0" AnchorPane.rightAnchor="10.0" />
+      <Button fx:id="differenceButton" layoutX="10.0" layoutY="302.0" mnemonicParsing="false" onAction="#handleBinaryOperation" prefHeight="30.0" prefWidth="120.0" text="4 Різниця" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="10.0" />
+      <Button fx:id="simetricDifferenceButton" layoutX="140.0" layoutY="302.0" mnemonicParsing="false" onAction="#handleBinaryOperation" prefHeight="30.0" prefWidth="120.0" text="5 Сим. різниця" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="140.0" AnchorPane.rightAnchor="140.0" />
+      <Button fx:id="inversionButton" layoutX="271.0" layoutY="302.0" mnemonicParsing="false" onAction="#handleInverse" prefHeight="30.0" prefWidth="120.0" text="6 Обернення" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="10.0" />
+      <Button fx:id="productButton" layoutX="140.0" layoutY="346.0" mnemonicParsing="false" onAction="#handleBinaryOperation" prefHeight="30.0" prefWidth="120.0" text="7 Добуток" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="140.0" AnchorPane.rightAnchor="140.0" />
+      <Button fx:id="inversionButton1" layoutX="271.0" layoutY="556.0" mnemonicParsing="false" onAction="#handlePartOperation" prefHeight="30.0" prefWidth="120.0" text="8 Звуження" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+   </children>
+</AnchorPane>

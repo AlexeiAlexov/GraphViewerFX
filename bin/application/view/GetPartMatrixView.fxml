@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="450.0" prefWidth="400.0" style="-fx-background-color: #4477aa;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.GetPartMatrixController">
+   <children>
+      <HBox alignment="CENTER" layoutX="14.0" layoutY="14.0" spacing="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <Button fx:id="saveButton" layoutX="173.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleSave" prefHeight="30.0" prefWidth="120.0" text="Готово" />
+         </children>
+      </HBox>
+      <HBox fx:id="hbox" alignment="CENTER" layoutX="100.0" layoutY="114.0" prefHeight="326.0" prefWidth="380.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="115.0" />
+      <HBox alignment="CENTER" layoutX="100.0" layoutY="40.0" prefHeight="50.0" prefWidth="380.0" spacing="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="50.0" fx:id="xhbox" />
+   </children>
+</AnchorPane>
